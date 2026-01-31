@@ -7,7 +7,7 @@ import { Quiz } from '@/components/Quiz'
 import { Success } from '@/components/Success'
 
 export function App() {
-  const [step, setStep] = useState('success')
+  const [step, setStep] = useState('hello')
 
   const goVerify = () => setStep('verify')
   const goQuiz = () => setStep('quiz')
